@@ -1,0 +1,33 @@
+// See https://aka.ms/new-console-template for more information
+
+
+
+//printing a message
+//Console.WriteLine("Hello, World!");
+
+//Console.WriteLine("Hey guys welcome to my dear dot net channel");
+
+////comments
+////console writeline
+
+////variables
+//int a = 10;
+
+//int number = 100;
+
+//string fruit = "Mangooooooooooooo";
+
+
+//string location = "Mumbai";
+
+//decimal vs float
+//double salary = 10.00007777777777777777777777777777777777; //precision
+//Console.WriteLine(salary);
+
+//float f = 1.012222222222222222222222222222222f;
+//Console.WriteLine(f);
+
+
+//Console.WriteLine("what is your name");
+//string name = Console.ReadLine();
+//Console.WriteLine("Welcome " + name);
