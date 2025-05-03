@@ -1,0 +1,64 @@
+// See https://aka.ms/new-console-template for more information
+
+//int age = 15;
+
+//if (age >= 18)
+//{
+//    Console.WriteLine("App vote kar sakthe hai");
+//}
+//else
+//{
+//    Console.WriteLine("maaf kaijiye app abhi chote ho");
+//}
+
+
+//Else if Ladder ka example
+
+//int marks = 45;
+
+//if (marks >= 90)
+//{
+//    Console.WriteLine("Outstanding");
+//}
+//else if (marks >= 75)
+//{
+//    Console.WriteLine("Very Good");
+//}
+//else if (marks >= 50)
+//{
+//    Console.WriteLine("Good");
+//}
+//else
+//{
+//    Console.WriteLine("Fail hogaya");
+//}
+
+
+//Switch Case Statements
+//int day = 6;
+//switch (day)
+//{
+//    case 1:
+//        Console.WriteLine("Monday");
+//        break;
+//    case 2:
+//        Console.WriteLine("Tue");
+//        break;
+//    case 3:
+//        Console.WriteLine("Wed");
+//        break;
+//    case 4:
+//        Console.WriteLine("Thur");
+//        break;
+//    case 5:
+//        Console.WriteLine("Friday");
+//        break;
+//    default:
+//        Console.WriteLine("Chill Karoo");
+//        break;
+//}
+
+//Ternary Operater
+//int age = 10;
+//string result = (age >= 18) ? "Adult" : "Minor";
+//Console.WriteLine(result);
