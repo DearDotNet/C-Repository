@@ -1,0 +1,66 @@
+//Array/strings
+
+//Arrays
+//int[] numbers = new int[5];
+
+//0th indexing start hota hai
+int[] marks = { 90, 85, 76, 88, 92 };
+
+//Console.WriteLine(marks[6]);
+
+//Loop through Array
+//for (int i = 0; i < marks.Length; i++)
+//{
+//    Console.WriteLine(marks[i]);
+//}
+
+//foreach (var mark in marks)
+//{
+//    Console.WriteLine(mark);
+//}
+
+//operations
+//int length = marks.Length; //length
+//Console.WriteLine(length);
+
+//marks[0] = 100; //update
+
+//Array.Sort(marks);
+
+//Array.Reverse(marks);
+
+
+//Strings
+//string name = "Jhon";
+
+//concatination
+
+//string first = "Dear";
+//string second = "Dot net";
+//string result = first + " " + second;
+//Console.WriteLine(result);
+
+//Console.WriteLine(first.Length);
+
+//Console.WriteLine(first[0]);
+
+
+////Method
+//ToUpper
+//ToLower;
+//Container;
+//Indexzof
+
+//string name = "XYZ";
+//int age = 10;
+
+//Console.WriteLine($"My name is {name} and i am age of {age}");
+
+
+//Arrrays and string combination
+
+//string[] fruits = { "apple", "Bannaana", "Mango" };
+//foreach (string s in fruits)
+//{
+//    Console.WriteLine(s);
+//}
