@@ -1,0 +1,64 @@
+//Method/Functions
+
+//syntax
+
+//returntype MethodName(parameter)
+//{
+
+//}
+
+//no parameter method
+
+//void SayHello()
+//{
+//    Console.WriteLine("Hello Developer");
+//}
+
+//SayHello();
+
+//method with parameter
+
+//void GreetUser(string username)
+//{
+//    Console.WriteLine("Hello " + username + " welcome to coding");
+//}
+
+//GreetUser("XXXYYXXXZZ");
+
+
+
+//Method with return type
+//int Add(int a, int b)
+//{
+//    return a + b;
+//}
+
+//int result = Add(10, 20);
+//Console.WriteLine(result);
+
+
+//print Karke dikaou Tables
+//void PrintTable(int number)
+//{
+//    for (int i = 1; i <= 10; i++)
+//    {
+//        Console.WriteLine($"{number} * {i} = {number * i}");
+//    }
+//}
+
+//PrintTable(5);
+
+
+//Method Overloading(Same Name, different paramter)
+
+//int Multiply(int a, int b)
+//{
+//    return a * b;
+//}
+//int result = Multiply(5, 2);
+//Console.WriteLine(result);
+
+//double Multiply(double a , double b)
+//{
+//    return a * b;
+//}
