@@ -1,0 +1,103 @@
+public class Student
+{
+    public int Id { get; set; }
+    public string Name { get; set; }
+    public int Age { get; set; }
+}
+
+class Program
+{
+    static void Main()
+    {
+        //SQL
+        List<Student> students = new List<Student>();
+
+        while (true)
+        {
+            Console.WriteLine("Welcome to Student management system");
+            Console.WriteLine("1. Add Student");
+            Console.WriteLine("2. View Student");
+            Console.WriteLine("3. Update Student");
+            Console.WriteLine("4. Delete Student");
+            Console.WriteLine("5. Exit");
+
+            int choice = Convert.ToInt32(Console.ReadLine());
+            //add
+            if (choice == 1)
+            {
+                Student s = new Student();
+                Console.WriteLine("Enter Id");
+                s.Id = Convert.ToInt32(Console.ReadLine());
+
+                Console.WriteLine("Enter Name");
+                s.Name = Console.ReadLine();
+
+                Console.WriteLine("Enter Age");
+                s.Age = Convert.ToInt32(Console.ReadLine());
+
+                students.Add(s);
+                Console.WriteLine("Student Added Succesfully");
+            }
+            //View
+
+            if (choice == 2)
+            {
+                foreach (Student s in students)
+                {
+                    Console.WriteLine($"ID:{s.Id},Name : {s.Name} , Age: {s.Age}");
+                }
+            }
+
+            //Update
+            if (choice == 3)
+            {
+                Console.WriteLine("Enter ID to Update");
+                int idToUpdate = Convert.ToInt32(Console.ReadLine());
+
+                var student = students.FirstOrDefault(s => s.Id == idToUpdate);
+
+                if (student != null)
+                {
+                    Console.WriteLine("Enter new Name");
+                    student.Name = Console.ReadLine();
+
+                    Console.WriteLine("Enter new age");
+                    student.Age = Convert.ToInt32(Console.ReadLine());
+
+                    Console.WriteLine("Student Upated Succesfully");
+                }
+                else
+                {
+                    Console.WriteLine("student not found");
+                }
+            }
+            //Delete
+            if (choice == 4)
+            {
+                Console.WriteLine("Enter ID to Delete");
+                int idToDelete = Convert.ToInt32(Console.ReadLine());
+
+                var student = students.FirstOrDefault(s => s.Id == idToDelete);
+
+                if (student != null)
+                {
+                    students.Remove(student);
+                    Console.WriteLine("Student Deleted Succesfully");
+                }
+                else
+                {
+                    Console.WriteLine("Student not found");
+                }
+            }
+
+            //Exit
+            if (choice == 5)
+            {
+                Console.WriteLine("Thank you for using the app");
+                break;
+            }
+        }
+
+    }
+}
+
